@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    /* position: sticky; */
+    top: 0;
+}
+
+.menublock{
+    width: 40%;
+    padding: 10px 10px;
+}
+
+.logoblock{
+    padding: 1px 100px;
+    font-size: x-large;
+}
+.menublock>ul{
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.menublock>ul>li>a{
+    font-size: larger;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+
+.menublock>ul>li>a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+

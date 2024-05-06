@@ -1,0 +1,67 @@
+.formholder{
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form{
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px ;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+.formitem{
+   
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.formitem input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.formitem label{
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 14px;
+}
+
+
+.login{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #0056bc;
+}
+
+.pass{
+   
+    position: relative;
+}
+
+.pass img{
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}

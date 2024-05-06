@@ -1,0 +1,31 @@
+.about-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Increase margin-bottom for better spacing */
+    color: #333; /* Adjust heading color for better contrast */
+  }
+  
+  .about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Increase margin-bottom for better spacing */
+    color: #666; /* Adjust paragraph text color for better readability */
+  }
+  
+  /* Additional styles for links or buttons */
+  .about-section a {
+    color: #007bff; /* Adjust link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease; /* Add smooth color transition on hover */
+  }
+  
+  .about-section a:hover {
+    color: #0056b3; /* Darken link color on hover */
+  }
+  

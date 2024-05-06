@@ -1,0 +1,27 @@
+#dis{
+    margin: 50px 50px;
+ 
+ }
+ .arr{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin: 1rem 4.5rem;
+ }
+ #rod{
+     height: 250px;
+     background-color: rgb(170, 198, 215);
+     border-radius: 8px;
+     width: 300px;
+     
+ }
+ #rig{
+     
+     width: 500px;
+     display: grid;
+     grid-template-columns: auto auto auto ;
+     gap: 3rem;
+     font-family: cursive;
+     font-size: 15px;
+ }
+ #arrg{
+    margin-left: 6rem;
+ }
